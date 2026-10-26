@@ -1,0 +1,12 @@
+{
+  "uploaded_filename": "Image To Image - All Manual - Clean Slate(2).json",
+  "uploaded_sha256": "4f2aaaba9d43104644eb931fb431f42bce50863b76d757a6b07c3fffefa5fc0a",
+  "workflow_modified": true,
+  "adjustments": [
+    "Blank source image and active prompts",
+    "Preserve Prompt History auto-save and paths",
+    "Correct negative Clean Slate connection where required",
+    "Remove transient preview fields and canvas viewport state"
+  ],
+  "runtime_tested": false
+}
