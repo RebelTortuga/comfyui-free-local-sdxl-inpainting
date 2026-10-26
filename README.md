@@ -87,6 +87,16 @@ The workflow is derived from the actual Clean Slate JSON uploaded by the author.
 
 Run `python scripts/validate_workflow.py` to check graph references. Structural checks passed during packaging. No GPU inference, clean-machine installation, visual output quality, or complete dependency-version compatibility was tested here. Exported core node version metadata is not a certified minimum ComfyUI version.
 
+## Frequently asked questions
+
+**What should I do if the wrong object is masked?** Refine the text description or edit the mask manually, then inspect the mask preview before generating.
+
+**Why do image edges look different after an edit?** Recheck crop, mask blur and stitching settings; inspect the mask transition before an upscale pass.
+
+**Do I need paid AI services?** No. The workflow uses local ComfyUI inference, provided you install compatible models and extensions.
+
+**What if nodes or models are missing?** Follow `DEPENDENCIES.md`, verify the documented model folders, restart ComfyUI and reselect filenames where needed.
+
 ## 🔗 Related Free RebelTortuga Projects
 
 Explore other free tools and workflows:
